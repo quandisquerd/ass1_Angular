@@ -1,0 +1,8 @@
+<p>edit works!</p>
+<form (ngSubmit)="HandleEdit()">
+    name: <br><br>
+    <input type="text" name="name" [(ngModel)]="product.name"><br><br>
+    price:<br><br>
+    <input type="number" name="price" [(ngModel)]="product.price"><br><br>
+    <button>EDIT</button>
+</form>
